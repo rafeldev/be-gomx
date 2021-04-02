@@ -1,0 +1,89 @@
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-download {
+  background-color: #10161C;
+  border: 2px solid #1C232A;
+  border-radius: 8px;
+  color: #FFBE00;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.arrow-down {
+  margin-left: 15px;
+  width: 12px;
+}
+
+.Container-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px red;
+
+  background-color: #10161C;
+  border-radius: 8px;
+  box-shadow: 0px 10px 9px 0px rgba(0,0,0,0.75);
+
+}
+
+.Child-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Child-container-uno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1C232A;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+.Child-container-dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1C232A;
+  border-left-width: 0;
+  border-top-width: 0;
+  border-right-width: 0;
+}
+
+.Child-container-tres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #1C232A;
+  border-left-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+
+}
+
+.Child-text {
+  margin-left: 10px;
+
+}
+
+.Child-text h4{
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 11px;
+  
+}
+
+.Child-text p{
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #C1C7D0;
+  font-weight: 300;
+  font-size: 14px;
+}

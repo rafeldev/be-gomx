@@ -1,0 +1,93 @@
+/* Tasks container */
+
+.Tasks {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.Task-title {
+  display: flex;
+  align-items: center;
+}
+
+.Task-title h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+.Task-title p {
+  color: #C1C7D0;
+
+}
+
+.Task-container-1 {
+  flex: 0 0 auto;
+  width: 171px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: 0px 10px 9px 0px rgba(0,0,0,0.75);
+  counter-increment: gallery-cell;
+}
+
+.Task-container-2 {
+  flex: 0 0 auto;
+
+  margin-left: 20px;
+  width: 171px;
+  padding: 5px 20px;
+  border-radius: 8px;
+  background-color: #10161C;
+  box-shadow: 0px 10px 9px 0px rgba(0,0,0,0.75);
+}
+
+.Container-title {
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.Container-user {
+  margin: 0 0;
+  text-align: left;
+  font-size: 12px;
+  color: #C1C7D0;
+}
+
+.Task-title-progressBar {
+  display: flex;
+  justify-content: space-between;
+  color: #C1C7D0;
+  height: 30px;
+}
+
+.Task-title-progressBar p {
+  font-size: 12px;
+  color: #C1C7D0;
+
+}
+
+.Task-progressBar {
+  background-color: #494C50;
+  border-radius: 13px;
+}
+
+.Task-progressBar div {
+  background-color: #FFBE00;
+  width: 40%;
+  height: 2px;
+  border-radius: 10px;
+}
+
+.Task-footer-title {
+  text-align: right;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #C1C7D0;
+
+}
+
