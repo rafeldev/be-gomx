@@ -25,7 +25,7 @@ Cd begomx
 npm install
 ```
 
-3. **execute program**: 
+4. **execute program**: 
 ```
 npm run start
 ```
