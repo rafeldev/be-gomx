@@ -21,28 +21,36 @@ function Statistics() {
       </div>
       <div className="Container-grid">
         <div className="Child-container-uno">
-          <img width="26px" src={projectsLogo} alt="projects" />
+          <figure className="figure-icons">
+            <img width="26px" src={projectsLogo} alt="projects" />
+          </figure>
           <div className="Child-text">
             <h4>50</h4>
             <p>Total projects</p>
           </div>
         </div>
         <div className="Child-container-dos">
-          <img width="26px" src={checked} alt="projects" />
+          <figure className="figure-icons">
+            <img width="26px" src={checked} alt="projects" />
+          </figure>
           <div className="Child-text">
             <h4>15</h4>
             <p>Completed</p>
           </div>
         </div>
         <div className="Child-container-tres">
-          <img width="26px" src={flash} alt="projects" />
+          <figure  className="figure-icons">
+            <img width="26px" src={flash} alt="projects" />
+          </figure>
           <div className="Child-text">
             <h4>10</h4>
             <p>In progress</p>
           </div>
         </div>
         <div className="Child-container">
-          <img width="26px" src={clock} alt="projects" />
+          <figure className="figure-icons">
+            <img width="26px" src={clock} alt="projects" />
+          </figure>
           <div className="Child-text">
             <h4>2</h4>
             <p>Delayed</p>

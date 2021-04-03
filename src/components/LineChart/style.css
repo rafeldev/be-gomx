@@ -1,0 +1,53 @@
+.LineChart {
+  margin-top: 30px;
+  padding: 15px 0 10px 0;
+  border-radius: 16px;
+  background-color: #10161C;
+  box-shadow: inset 2px 2px 4px 0px rgba(4,11,17, 0.7);
+}
+
+.LineChart-title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+.LineChart-title .active {
+  color: #FFBE00;
+}
+
+
+.LineChart-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LineChart-price p {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.LineChart-price h2 {
+  font-size: 41px;
+  line-height: 61px;
+}
+.LineChart-img {
+  width: 100%;
+}
+
+.LineChart-Months {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 700;
+  color: #89898A;
+}
+
+.LineChart-Months .active {
+  color: white;
+}
