@@ -62,6 +62,11 @@
 }
 
 .App-nav a {
-  color: white;
   text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
+.App-nav a:hover {
+  color: #FFBE00;
+}
+
